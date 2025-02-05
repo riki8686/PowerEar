@@ -17,31 +17,40 @@
             - 1 - Description of the PowerEar attack
         </h2>
         <article>
-            <p>PowerEar is an acoustic eavesdropping attack that leverages the power side channel to reconstruct any audio reproduced by the built-in speaker of a mobile device, with a non-constrained vocabulary. 
-            Our approach relies on a combination of signal processing and generative artificial intelligence techniques to learn the mapping between power consumption and audio playback, enabling the reconstruction of such audio through spectrogram enhancement.
+            <div>
+			<p>PowerEar is an acoustic eavesdropping attack that leverages the power side channel to reconstruct any audio reproduced by the built-in speaker of a mobile device, with a non-constrained vocabulary. 
+            Our approach relies on a combination of signal processing and generative artificial intelligence techniques to learn the mapping between power consumption and audio playback, enabling the reconstruction of such audio through spectrogram enhancement. Figure 1 provides a overview for the PowerEar system. For additional details refer to the paper.
             </p>    
+			
+			<div>
+    <img src="asset/images/powerear-overview.png" alt='missing' class="main-image" />
+    <div class=caption>(1) Overview of the PowerEar system</div>
+</div>
+                
+			<div/>
+			<h3> Fundamentals of human speech and audio-induced power traces</h3>
             <p>Typically, the fundamental frequencies of the human voice range from 300Hz to 3.4kHz.
             The English language has a total of 48 phonemes that can be bisected into 20 vowels and 28 consonants. 
-            As we can observe in the figures, vowels have their main frequency components below 2kHz (see Figure a) while labial and fricative consonants can reach frequencies up to 8kHz (see Figure c). 
+            As we can observe in the figures, vowels have their main frequency components below 2kHz (see Figure 2a) while labial and fricative consonants can reach frequencies up to 8kHz (see Figure 2c). 
             </p>
             <p>
             The built-in speaker of a mobile device causes current fluctuations that are related to the audio played.
-            Therefore, we measure the resulting power traces, for which we report the spectrograms of the vowels in Figure b and the consonants in Figure d.
+            Therefore, we measure the resulting power traces, for which we report the spectrograms of the vowels in Figure 2b and the consonants in Figure 2d.
             </p>
             <table><tr>
             <td>
                 <img src="asset/images/audio_spectrogram_vowels.png"   alt="Audio of vowels" class="device-image">
-                <p class="media-description" >(a) Audio of vowels</p>
+                <p class="caption" >(2a) Audio of vowels</p>
             
                 <img src="asset/images/power_data_spectrogram_vowels.png"  alt="Audio of vowels" class="device-image">
-                <p class="media-description" >(b) Power trace of vowels</p>
+                <p class="caption" >(2b) Power trace of vowels</p>
             </td>
             <td>
                 <img src="asset/images/audio_spectrogram_consonants.png" alt="Audio of vowels" class="device-image">
-                <p class="media-description" >(c) Audio of consonants</p>
+                <p class="caption" >(2c) Audio of consonants</p>
         
                 <img src="asset/images/power_data_spectrogram_consonants.png"  alt="Audio of vowels" class="device-image">
-                <p class="media-description" >(d) Power trace of consonants</p>
+                <p class="caption" >(2d) Power trace of consonants</p>
             </td>
             </tr></table>
         </section>
