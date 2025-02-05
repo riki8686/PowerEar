@@ -5,4 +5,4 @@ For a device X, the folder "./devices/X/" contains the original and reconstructe
 For a language Y, the folder "./languages/Y/" contains the original and reconstructed audio in language Y.
 Each folder also contains the spectrograms for original audio, raw power trace (powertrace_raw), denoised power trace (powertrace_denoise), and reconstructed audio.  
 
-For an easier fruition for these contents, please consider to visit powerear.spolaor.com or riki8686.github.io/PowerEar 
+For a better fruition of these contents, please consider to visit powerear.spolaor.com or riki8686.github.io/PowerEar 
