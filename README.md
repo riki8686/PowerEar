@@ -16,6 +16,7 @@ PowerEar can successfully recover user speeches from power consumption data in r
 ## Disclaimer
 
 The code in this project includes modified parts of the code from the BicycleGAN model in "https://github.com/junyanz/BicycleGAN", which has been re-adapted for the domain of this project.
+
 See the LICENSE file for information about the copyright and disclaimer.
 
 
