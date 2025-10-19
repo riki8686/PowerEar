@@ -5,13 +5,19 @@ PowerEar is an acoustic eavesdropping attack that leverages the power side chann
 PowerEar can successfully recover user speeches from power consumption data in realistic settings, including speech utterances of individuals and different device models, mobile operating systems, activities, charging technology, battery, and volume level.
 
 ## Code structure
-- Our code is based on the BicycleGAN model code "https://github.com/junyanz/BicycleGAN", which we re-adapt for the domain of this project.
+
 - The `data` folder includes all modules related to data loading and preprocessing
 - The `model` folder contains modules related to objective functions, optimizations, and neural network architectures.
 - The `util` folder includes the html generator and visualizer utils.
 - The `options` folder includes the configuration files where one can set the hyperparameters for the model training and testing
 - The `scripts` folder has the scripts to execute the training and test processes.
 - The `requirements.txt` contains the list of the Python libraries that one has to install.
+
+## Disclaimer
+
+The code in this project includes modified parts of the code from the BicycleGAN model in "https://github.com/junyanz/BicycleGAN", which has been re-adapted for the domain of this project.
+See the LICENSE file for information about the copyright and disclaimer.
+
 
 ## Getting Started 
 
